@@ -20,7 +20,8 @@ class TimeRecordController extends Controller
         'entrada' => 'required',
         'almoco_saida' => 'required',
         'almoco_retorno' => 'required',
-        'saida' => 'required'
+        'saida' => 'required',
+        'data' => 'required'
     ];
     /**
      * METODO RESPONSAVEL POR RETORNAR TODOS OS PONTOS BATIDOS
